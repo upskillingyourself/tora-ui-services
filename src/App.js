@@ -17,15 +17,25 @@ import Navbar from './shared/Navbar';
 import ContactUs from './pages/contact/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermCondation from './pages/TermCondation';
+
 import KnowledgeCenter from './pages/knowledge-center/KnowledgeCenter';
 import ForgotPassword from './pages/auth/ForgotPassword';
 import ResetPassword from './pages/auth/ResetPassword';
+import { Helmet } from 'react-helmet';
+
+
+
 
 
 function App() {
   return (
      <div className="App">
-
+      <Helmet>
+        <title>Home -ToraTax</title>
+        {/* <meta name="description" content="We provide web and mobile development services." /> */}
+        <meta name="description" content="ToraTax - Simplified ITR Filing & Tax Solutions. Get hassle-free tax filing services with ToraTax." />
+        <meta name="keywords" content="ToraTax, ITR Filing, Tax Solutions, Online Tax, Income Tax, Tax Return, Financial Services" />
+      </Helmet>
       <BrowserRouter>
 
         <Navbar />
@@ -38,7 +48,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-          <Route path='/terms-&-condations' element={<TermCondation />} />
+          <Route path='/terms-&-conditions' element={<TermCondation />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/knowledge-center' element={<KnowledgeCenter />} />
 
@@ -50,7 +60,7 @@ function App() {
           <Route element={<PrivateRoutes />}>
             <Route path='/about-us' element={<AboutUs />} />
             <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-            <Route path='/terms-&-condations' element={<TermCondation />} />
+            {/* <Route path='/terms-&-conditions' element={<TermCondation />} /> */}
             <Route path='/contact-us' element={<ContactUs />} />
 
             <Route path='/dashboard' element={< Dashboard />} />

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const TermCondation = () => {
     return (
         <>
+        
             <section style={{ minHeight: "100vh" }} >
                 <div className="container">
                     <div className="row">
