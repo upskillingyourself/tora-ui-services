@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
+import SeoMeta from "../../utils/SeoMeta";
 
 // Sample JSON data
 const tableData = [
@@ -43,12 +44,18 @@ const AboutUs = () => {
 
   return (
     <>
+     <SeoMeta
+        title="About Us | ToraTax - Leading Online Tax Filing Service"
+        description="Discover how ToraTax simplifies online income tax filing with expert guidance, accuracy, and security. Learn about our mission, services, and customer benefits."
+        keywords="ToraTax, About ToraTax, Online Tax Filing, Tax Solutions, ITR Filing, Income Tax Return, Secure Tax Filing, Tax Preparation, Financial Services"
+        author="ToraTax Team"
+      />
       <section className="section  py-5 " style={{ minHeight: "100vh" }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="mt-4 pt-2">
-                <h4 className="fs-2 mb-4">About Us</h4>
+                <h4 className="fs-2 mb-4">About ToraTax</h4>
                 <p className="text-muted">
                   TORATAX is an online platform that provides assistance to
                   taxpayers in filing their income tax returns.

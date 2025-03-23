@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import SeoMeta from "../../utils/SeoMeta";
 const ContactUs = () => {
   const { register, handleSubmit } = useForm();
 
@@ -14,6 +15,13 @@ const ContactUs = () => {
   };
   return (
     <>
+    <SeoMeta
+      title="Contact ToraTax | Get in Touch for Tax Filing Assistance"
+      description="Have questions or need help with tax filing? Contact ToraTax for expert assistance. Reach out via phone, email, or chat for quick support."
+      keywords="Contact ToraTax, Tax Filing Support, Online Tax Assistance, Customer Support, Tax Help, Income Tax Queries, Tax Consultation, Tax Services Contact"
+      author="ToraTax Team"
+    />
+
       <section class="section py-5 hero-margin">
         <div class="container">
           <div class="row">

@@ -1,9 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SeoMeta from '../utils/SeoMeta'
 
 const PrivacyPolicy = () => {
   return (
     <>
+    <SeoMeta
+      title="Privacy Policy | ToraTax - Secure & Confidential Tax Filing"
+      description="Learn how ToraTax protects your personal and financial data. Read our Privacy Policy to understand data security, confidentiality, and compliance measures."
+      keywords="ToraTax Privacy Policy, Data Security, Confidential Tax Filing, Secure Tax Services, User Privacy, Personal Data Protection, Online Tax Compliance"
+      author="ToraTax Team"
+    />
+
       <section className="section" style={{ minHeight: "100vh" }} >
         <div className="container">
           <div className="row">

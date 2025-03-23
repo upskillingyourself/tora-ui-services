@@ -1,9 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SeoMeta from '../utils/SeoMeta'
 
 const ErrorPage = () => {
   return (
     <div>
+        <SeoMeta
+            title="404 - Page Not Found | ToraTax"
+            description="Oops! The page you're looking for doesn't exist. Return to the homepage or explore our services to find what you need."
+            keywords="ToraTax 404, Page Not Found, Broken Link, Missing Page, Tax Filing Help, Online Tax Services"
+            author="ToraTax Team"
+            />
+
         <section class="bg-home d-flex align-items-center" style={{height:"100vh"}}>
             <div class="container">
                 <div class="row justify-content-center">

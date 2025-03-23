@@ -21,21 +21,13 @@ import TermCondation from './pages/TermCondation';
 import KnowledgeCenter from './pages/knowledge-center/KnowledgeCenter';
 import ForgotPassword from './pages/auth/ForgotPassword';
 import ResetPassword from './pages/auth/ResetPassword';
-import { Helmet } from 'react-helmet';
 
 
-
-
-
-function App() {
+function App() {  
   return (
      <div className="App">
-      <Helmet>
-        <title>Home -ToraTax</title>
-        {/* <meta name="description" content="We provide web and mobile development services." /> */}
-        <meta name="description" content="ToraTax - Simplified ITR Filing & Tax Solutions. Get hassle-free tax filing services with ToraTax." />
-        <meta name="keywords" content="ToraTax, ITR Filing, Tax Solutions, Online Tax, Income Tax, Tax Return, Financial Services" />
-      </Helmet>
+     
+
       <BrowserRouter>
 
         <Navbar />

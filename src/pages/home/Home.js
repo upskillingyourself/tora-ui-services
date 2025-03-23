@@ -10,6 +10,7 @@ import Auth from '../../components/Auth'
 import Contact from '../../components/Contact'
 import About from '../../components/About'
 import Cookies from "js-cookie";
+import SeoMeta from '../../utils/SeoMeta'
 
 
 const Home = () => {
@@ -17,6 +18,14 @@ const Home = () => {
 //   console.log('dd',dd);
     return (
         <>
+      
+            <SeoMeta
+                title="ToraTax | Fast & Secure Online Tax Filing Service"
+                description="File your income tax returns effortlessly with ToraTax. Enjoy fast, secure, and expert-assisted online tax filing with maximum accuracy and compliance."
+                keywords="ToraTax, Online Tax Filing, ITR Filing, Income Tax Return, Secure Tax Filing, Tax Solutions, E-Filing, Financial Services, Tax Preparation, Expert Tax Guidance"
+                author="ToraTax Team"
+                canonical="https://www.toratax.com/"
+            />
         
            <Hero/>
            <Features/>

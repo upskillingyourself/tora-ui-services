@@ -1,9 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SeoMeta from '../utils/SeoMeta'
 
 const TermCondation = () => {
     return (
         <>
+        <SeoMeta
+            title="Terms & Conditions | ToraTax - Online Tax Filing Agreement"
+            description="Read ToraTax's Terms & Conditions to understand our policies on tax filing services, user responsibilities, and legal agreements. Stay informed about your rights."
+            keywords="ToraTax Terms & Conditions, Tax Filing Agreement, User Policy, Online Tax Service Terms, Legal Disclaimer, Tax Compliance, Service Usage Terms"
+            author="ToraTax Team"
+        />
         
             <section style={{ minHeight: "100vh" }} >
                 <div className="container">
