@@ -24,7 +24,7 @@ const Home = () => {
                 description="File your income tax returns effortlessly with ToraTax. Enjoy fast, secure, and expert-assisted online tax filing with maximum accuracy and compliance."
                 keywords="ToraTax, Online Tax Filing, ITR Filing, Income Tax Return, Secure Tax Filing, Tax Solutions, E-Filing, Financial Services, Tax Preparation, Expert Tax Guidance"
                 author="ToraTax Team"
-                canonical="https://www.toratax.com/"
+                // canonical="https://www.toratax.com/"
             />
         
            <Hero/>
