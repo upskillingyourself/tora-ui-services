@@ -1,5 +1,15 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /
-Sitemap: https://www.toratax.com/sitemap.xml
+# Block private and sensitive routes
+Disallow: /dashboard/
+Disallow: /profile/
+Disallow: /signin
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /reset-ui/
+Disallow: /reset-ui/reset-password
 
+# Allow all public pages
+Allow: /
+
+# Sitemap for crawling guidance
+Sitemap: https://www.toratax.com/sitemap.xml
